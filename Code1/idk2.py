@@ -1,0 +1,5 @@
+name = input("Enter your full name")
+print("Let's see how many B letters there are in your name")
+name.lower().strip()
+result = name.count("b")
+print(f"There are this many B's in your full name:{result}")
